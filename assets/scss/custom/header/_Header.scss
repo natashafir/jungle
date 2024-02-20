@@ -29,8 +29,8 @@
       float: right;
     }
   }
-  &-action {
-    font-weight: 400;
-  }
 }
-
+.navPages-action, .navUser-action {
+  text-transform: none;
+  font-weight: 400;
+}
