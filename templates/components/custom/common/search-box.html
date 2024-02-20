@@ -1,0 +1,15 @@
+<form action="{{urls.search}}">
+    <fieldset class="form-fieldset">
+        <div class="custom-form-field">
+            <label class="form-label is-srOnly" for="search_query_adv">{{lang 'search.results.form_label'}}</label>
+            <div class="form-prefixPostfix wrap">
+                <input class="form-input" id="search_query_adv" name="search_query_adv" value="{{forms.search.query}}">
+                <button type="submit" class="button--primary form-prefixPostfix-button--postfix">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.7281 17.2913L15.8333 13.3971C15.6575 13.2214 15.4192 13.1237 15.1691 13.1237H14.5324C15.6106 11.7449 16.2512 10.0107 16.2512 8.12421C16.2512 3.63636 12.6143 0 8.12566 0C3.63705 0 6.10352e-05 3.63636 6.10352e-05 8.12421C6.10352e-05 12.612 3.63705 16.2484 8.12566 16.2484C10.0125 16.2484 11.747 15.6079 13.126 14.5298V15.1665C13.126 15.4165 13.2237 15.6547 13.3995 15.8305L17.2943 19.7246C17.6615 20.0918 18.2553 20.0918 18.6186 19.7246L19.7242 18.6193C20.0914 18.2521 20.0914 17.6584 19.7281 17.2913ZM8.12566 13.1237C5.36373 13.1237 3.12529 10.8896 3.12529 8.12421C3.12529 5.36276 5.35983 3.12469 8.12566 3.12469C10.8876 3.12469 13.126 5.35885 13.126 8.12421C13.126 10.8857 10.8915 13.1237 8.12566 13.1237Z" fill="#253039"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </fieldset>
+</form>

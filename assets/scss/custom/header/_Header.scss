@@ -1,0 +1,36 @@
+.navUser {
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 0;
+}
+
+.navPages {
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+
+  &-list {
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  &-item {
+    &:first-child {
+      .navPages-action {
+        padding-left: 0;
+        font-weight: 700;
+      }
+    }
+    &:nth-last-child(-n+3) {
+      float: right;
+    }
+  }
+  &-action {
+    font-weight: 400;
+  }
+}
+
